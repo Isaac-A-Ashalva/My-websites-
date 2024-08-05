@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content=""/>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <title>WhatsApp </title>
+        <style>
+           *{
+               margin:0;
+               padding:0;
+               box-sizing:border-box;
+           }
+           
+                 body{
+                    color:white; background-color:#011;
+                 }
+                 
+               header{
+                 display:flex;
+                 align-items:center;
+               margin-bottom:0px;  justify-content:space-between;  
+               }
+               
+               header h1{
+                   font-weight:400;
+               }
+               
+               header .logo,.menu{
+                   padding:20px;
+               }
+               
+               .menu{
+                   display:flex;
+                 align-items:center;  justify-content:space-around;
+               }
+               
+               .menu .fa.fa-camera, .fa.fa-ellipsis-v{
+    margin:15px;
+    font-size:20px;
+}
+
+.search-bar{
+    margin-top:0px;
+    position:relative;
+    padding:20px;
+    display:flex;
+    flex:1;
+}
+
+.search-bar i{
+    position:absolute;
+    left:30px;
+    top:16px;
+    z-index:10;
+    color:lightgrey;
+    font-size:20px;
+}
+
+.search-bar input{
+    background-color:#231;
+    height:50px;
+    outline:none;
+    border:0px solid lightgrey;
+    border-radius:50px;
+    padding-left:10px;
+    position:absolute;
+    left:10px;
+    top:0px;
+    width:95%;
+}
+
+::placeholder{
+    font-size:20px;
+    padding-left:45px;
+}
+
+.container{
+    display:flex;
+    padding:40px 20px 20px 20px;
+    justify-content:space-between;
+    align-items:center;
+    text-transform:uppercase;
+}
+
+.container img{
+    width:40px;
+    height:40px;
+    border-radius:100%;
+}
+
+.about-image{
+    position:absolute;
+    left:70px;
+    display:flex;
+    flex-direction:column;
+}
+
+.container h4{
+    margin-bottom:8px;
+    }
+    
+    .container{
+      margin-left:-5px;  
+    }
+    
+.voice{
+        display:flex;
+        max-width:70px;
+        justify-content:space-around;
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class = "logo">
+                <h1>WhatsApp</h1>
+            </div>
+            <div class = "menu">
+                <i class="fa fa-camera" aria-hidden="true"></i>
+                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+        </header>
+            
+        <div class = "search-bar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" name="text_input" placeholder = "search...">
+        </div>
+            
+        <div class = "container">
+           <img src = "images/isaac.jpg"></img>
+          <div class = "about-image">
+    <h4>Isaac a ashalva</h4>
+    <div class = "voice">
+        <i class="fa fa-check" aria-hidden="true"></i>
+    <i class="fa fa-microphone" aria-hidden="true"></i>
+    <p>0:37</p>
+    </div>
+</div>
+    <p>6:38pm</p>
+        </div>
+    </body>
+</html>
