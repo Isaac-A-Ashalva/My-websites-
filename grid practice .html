@@ -1,0 +1,115 @@
+<DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Grids</title>
+
+<style>
+    *{
+        box-sizing:border-box;
+        padding:0;
+        margin:0;
+        font-family:"serif"
+    }
+    
+    body{
+        background:url("images/sky-background.jpg");
+    }
+    
+    header{
+        display:flex;
+        flex:1;
+       align-items:center;
+       padding:20px;     
+    }
+    
+    header h1{
+       color:dodgerblue; 
+    }
+    
+    header h3{
+        align-self:end;
+        color:adefacb;
+    }
+    
+      
+      .navbar{
+          margin-top:20px;
+      }
+    .navbar ul{
+        display:flex;
+        padding:10px;
+    }
+    
+    .navbar ul{
+        overflow-x:auto;
+        list-style:none;
+        color:white;
+    }
+    
+    .navbar ul a{
+      text-decoration:none;
+      color:#defbca;
+      font-weight:500;
+      font-size:22px;
+      padding:5px;
+    }
+    
+.img{
+   display:flex;
+   align-items:center; 
+}
+
+.bio{
+    align-self:end;
+    margin:5px;
+}
+    .img img{
+        margin-top:50px;
+        width:200px;
+        border-radius:20%;
+    }
+    
+    .img h4,p{
+        color:#fff;
+        
+    }
+    
+    .img h4{
+        font-weight:lighter;
+        font-size:23px;
+        padding:5px 5px 10px 5px;
+    }
+    
+    .img p{
+        font-weight:lighter;
+        font-size:18px;
+        padding:5px;
+    }
+</style>
+</head>
+
+<body>
+ <header>
+  <h1>Hi, I'm Isaac Newton</h1>
+  <h3>A website designer</h3>   
+ </header> 
+ <hr></hr>  
+<nav class = "navbar">
+    <ul>
+      <li><a href = "#">Home</a></li> |
+<li><a href = "#">About</a></li>
+    |<li><a href = "#">Projects</a></li> |
+<li><a href = "#">Contacts</a></li>
+    </ul>
+</nav>
+  <hr><hr>  
+
+<div class = "img">
+    <img src = "images/isaac.jpg">
+        <div class = "bio">
+    <h4>A young programmer</h4>
+    <p>My intention is just to create a user-friendly, simple and interactive websites that are free to use.</p>
+    </bio>
+</div>
+</body>
+</head>
